@@ -1,0 +1,21 @@
+.projectDetails-relatedProjects {
+	ul {
+		padding-left: 1.5rem;
+	}
+	li {
+		font-size: 1rem;
+	}
+}
+
+@media (--small) {
+	.projectDetails-resources {
+		display: flex;
+	}
+	.projectDetails-aside-section.projectDetails-relatedProjects {
+		width: 47%;
+		display: inline-block;
+		&:nth-child(even) {
+			margin-left: 4%;
+		}
+	}
+}

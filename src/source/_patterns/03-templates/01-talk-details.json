@@ -1,0 +1,45 @@
+{
+	"title" : "DEG",
+	"bodyClass": "project-details-page",
+	"emergency" : false,
+	"conference-name" : "Conference Name",
+	"talk-name" : "Talk Name",
+	"talk-url" : "#",
+	"talk-location" : "Github",
+	"talk-description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque ducimus officia, in sapiente cumque vero! Libero iure accusantium officia eos hic ipsa vel rem numquam quia natus, quibusdam animi magnam!",
+	"details-speaker" : [
+		{
+			"twitter" : "https://twitter.com/",
+			"speaker-name" : "Speaker Name",
+			"speaker-bio" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos ex beatae recusandae totam, voluptate dicta vero quis perspiciatis consequatur asperiores perferendis nulla, id fugiat consequuntur, esse unde accusamus magni, ab?"
+		}
+	],
+	"talk-resources" : [
+		{
+			"resource-list-name" : "More Resources 1",
+			"resources" : [
+				{
+					"resource-name": "Resource 1",
+					"url": "#"
+				}
+			]
+		},
+		{
+			"resource-list-name" : "More Resources 2",
+			"resources" : [
+				{
+					"resource-name": "Resource 1",
+					"url": "#"
+				}
+			]
+		}
+	],
+	"blog-post" : [
+		{
+			"author": "Blog Author",
+			"topic": "Topic",
+			"where": "on the DEG blog",
+			"url": "#"
+		}
+	]
+}
