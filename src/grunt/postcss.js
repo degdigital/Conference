@@ -12,7 +12,7 @@ module.exports = {
                 require("postcss-color")(),
                 require("autoprefixer-core")({
                     browsers: 'last 2 versions'
-                }).postcss,
+                }),
                 require('csswring')
             ]
         },

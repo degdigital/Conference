@@ -1,0 +1,58 @@
+.project-hero {
+	display: block;
+	margin-bottom: .75rem;
+	img {
+		display: block;
+		width: 100%;
+	}
+}
+
+.project-name {
+	font-size: 2rem;
+	line-height: 1.4;
+	margin-bottom: .25rem;
+}
+
+.project-tags {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 1rem 0;
+	li {
+		margin: 0 .5rem 0 0;
+		display: inline-block;
+	}
+}
+
+.project-tag {
+	font-size: .88rem;
+	display: block;
+	padding: .4rem .6rem;
+	color: var(--color-blue-light);
+	border: 1px solid var(--color-blue-light);
+	border-radius: .2rem;
+	&:visted { color: var(--color-blue-light); }
+	&:hover {
+		color: var(--color-blue);
+		border-color: var(--color-blue);
+	}
+}
+
+.project-description {
+	margin-bottom: 1rem;
+}
+
+@media (--medium) {
+	.project-name {
+		margin-bottom: .25rem;
+	}
+	.project-tags {
+		margin: 0 0 1rem 0;
+		li {
+			margin: 0 1rem 0 0;
+		}
+	}
+	.project-description {
+		margin-bottom: 1.25rem;
+		p { font-size: 1.1rem; }
+	}
+}

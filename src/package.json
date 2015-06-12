@@ -1,12 +1,12 @@
 {
-  "name": "spark",
+  "name": "DEGconference",
   "version": "1.0.0",
-  "description": "DEG Code Showcase Site",
+  "description": "DEG Conference Resources",
     "repository": {
         "type": "git",
-        "url": "https://github.com/degdigital/Spark.git"
+        "url": "https://github.com/degdigital/Conference/"
     },
-  "author": "Chris Stauffer",
+  "author": "Brian Graves",
   "devDependencies": {
         "autoprefixer-core": "^5.1.7",
         "babel-core": "^4.4.6",
@@ -21,6 +21,7 @@
         "grunt-postcss": "^0.3.0",
         "grunt-sass-globbing": "^1.2.0",
         "grunt-shell": "^1.1.1",
+        "grunt-gh-pages": "^0.10.0",
         "load-grunt-config": "^0.16.0",
         "postcss-calc": "^4.0.0",
         "postcss-color": "^1.0.1",

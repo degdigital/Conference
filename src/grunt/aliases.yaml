@@ -15,3 +15,8 @@ default:
 
 'build-patternlab':
 	- 'shell:patternlab'
+
+'push':
+    - clean
+    - copy
+    - gh-pages
