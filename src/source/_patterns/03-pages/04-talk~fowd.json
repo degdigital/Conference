@@ -15,9 +15,18 @@
 					"alt": "Brian Graves"
 				}
 			},
-			"twitter" : "https://twitter.com/briangraves",
 			"speaker-name" : "Brian Graves",
-			"speaker-bio" : "A UI designer and developer who's passionate about design and the process behind it, Brian is a strong proponent of iterative work, collaborative efforts, and user first design. He is currently the UI team lead at DEG where he does cross-channel design and development work for a range of major brands."
+			"speaker-bio" : "A UI designer and developer who's passionate about design and the process behind it, Brian is a strong proponent of iterative work, collaborative efforts, and user first design. He is currently the UI team lead at DEG where he does cross-channel design and development work for a range of major brands.",
+			"speaker-social" : [
+				{
+					"network": "twitter",
+					"url": "https://twitter.com/briangraves"
+				},
+				{
+					"network": "github",
+					"url": "https://github.com/briangraves"
+				}
+			]
 		}
 	],
 	"talk-resources" : [

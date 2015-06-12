@@ -15,11 +15,16 @@
 	text-align: center;
 }
 
+.speaker-info {
+	margin-bottom: 1rem;
+}
+
 .team-member-img {
-	width: 100px;
+	width: 75px;
 	max-width: 100%;
 	display: block;
-	margin-bottom: 1rem;
+	float: left;
+	margin: 0 1rem 0 0;
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 	border-radius: 50%;
@@ -32,6 +37,17 @@
 	transition: color,0.5s;
 }
 
+.speaker-name {
+	margin-bottom: .5rem;
+}
+
+.speaker-social {
+	font-size: 1.5rem;
+}
+
+.speaker-bio {
+	clear: both;
+}
 
 .projectDetails-team-member:hover {
 	.team-member-img {
@@ -43,19 +59,6 @@
 	}
 }
 
-.speaker-name {
-	display: block;
-	color: var(--color-grey);
-	&:after {
-		color: var(--color-blue);
-		float: right;
-		margin-right: 0;
-		transition: color .5s;
-	}
-	&:hover:after {
-		color: var(--color-blue-dark);
-	}
-}
 
 @media (--small) {
 	.projectDetails-team-member { width: 25%; }

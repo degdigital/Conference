@@ -39,11 +39,8 @@
 .icon-github:before {
 	content: "\e601";
 }
-.icon-twitter:before {
-	content: "\e600";
-}
 
-.icon-twitter-after:after {
+.icon-twitter:before {
 	content: "\e600";
 }
 

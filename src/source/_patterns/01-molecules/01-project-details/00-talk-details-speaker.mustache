@@ -3,8 +3,13 @@
  	{{# details-speaker }}
 	<div class="projectDetails-speaker">
 		{{> atoms-avatar }}
-		<a href="{{ twitter }}" class="speaker-name icon-twitter-after">{{ speaker-name }}</a>
-		<p>
+		<div class="speaker-info">
+			<h2 class="speaker-name">{{ speaker-name }}</h2>
+			{{# speaker-social }}
+			<a href="{{ url }}" class="speaker-social icon-{{ network }}"><span class="is-vishidden">{{ url }}</span></a>
+			{{/ speaker-social }}
+		</div>
+		<p class="speaker-bio">
 			{{ speaker-bio }}
 		</p>
 	</div>

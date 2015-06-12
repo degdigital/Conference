@@ -19,18 +19,6 @@
 	&:last-child { margin-bottom: 0; }
 }
 
-.projectDetails-speaker {
-	display: flex;
-	flex-wrap: wrap;
-	.speaker-name,
-	.team-member-img {
-		width: 50%;
-	}
-	p {
-		width: 100%;
-	}
-}
-
 @media (--small) {
 	.projectDetails-article {
 		ul, ol, p {

@@ -15,9 +15,18 @@
 					"alt": "Aaron Ladage"
 				}
 			},
-			"twitter" : "https://twitter.com/aladage",
 			"speaker-name" : "Aaron Ladage",
-			"speaker-bio" : "Aaron Ladage is a UI engineer at DEG in Overland Park, Kansas. He’s currently obsessed with creating faster, leaner responsive sites, and architecting front-end workflow tools and processes that help other developers do the same."
+			"speaker-bio" : "Aaron Ladage is a UI engineer at DEG in Overland Park, Kansas. He’s currently obsessed with creating faster, leaner responsive sites, and architecting front-end workflow tools and processes that help other developers do the same.",
+			"speaker-social" : [
+				{
+					"network": "twitter",
+					"url": "https://twitter.com/aladage"
+				},
+				{
+					"network": "github",
+					"url": "https://github.com/aladage"
+				}
+			]
 		}
 	],
 	"talk-resources" : [

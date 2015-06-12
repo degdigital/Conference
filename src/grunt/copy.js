@@ -27,12 +27,12 @@ module.exports = {
         "files": [{
             "expand": true,
             "cwd": "<%= paths.dist.patterns %>",
-            "src": ["**/*-pages-*.html", "!**/*-pages-*.escaped.html", "!**/*-project-details*"],
+            "src": ["**/*-pages-*.html", "!**/*-pages-*.escaped.html", "!**/*-project-details*", "!**/*-pages-*-talk.html"],
             "dest": "<%= paths.app.patterns %>/",
             "flatten": true,
             "filter": 'isFile',
             "rename": function(dest, src) {
-                return dest + src.substr(12);
+                return dest + src.substr(17);
             }
         }],
         "options": {

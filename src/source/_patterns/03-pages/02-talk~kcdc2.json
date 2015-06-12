@@ -15,9 +15,18 @@
 					"alt": "Jeffrey Rondeau"
 				}
 			},
-			"twitter" : "https://twitter.com/JRondeau16",
 			"speaker-name" : "Jeffrey Rondeau",
-			"speaker-bio" : "Jeffrey Rondeau is a KU Alum with a degree in Computer Science currently working as a .NET Engineer for DEG.  He has a passion for writing clean and efficient code.  Outside of work you can find him playing basketball and trying to help others get involved with the developer community."
+			"speaker-bio" : "Jeffrey Rondeau is a KU Alum with a degree in Computer Science currently working as a .NET Engineer for DEG.  He has a passion for writing clean and efficient code.  Outside of work you can find him playing basketball and trying to help others get involved with the developer community.",
+			"speaker-social" : [
+				{
+					"network": "twitter",
+					"url": "https://twitter.com/JRondeau16"
+				},
+				{
+					"network": "github",
+					"url": "https://github.com/JRondeau16"
+				}
+			]
 		}
 	],
 	"talk-resources" : [
