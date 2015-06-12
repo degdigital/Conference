@@ -1,6 +1,6 @@
-{{# details-speaker }}
 <section class="projectDetails-aside-section projectDetails-blogPost">
  	<h2 class="projectDetails-aside-heading">Speaker</h2>
+ 	{{# details-speaker }}
 	<div class="projectDetails-speaker">
 		{{> atoms-avatar }}
 		<a href="{{ twitter }}" class="speaker-name icon-twitter-after">{{ speaker-name }}</a>
@@ -8,5 +8,5 @@
 			{{ speaker-bio }}
 		</p>
 	</div>
+	{{/ details-speaker }}
 </section>
-{{/ details-speaker }}
