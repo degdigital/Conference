@@ -5,3 +5,4 @@ temp/
 *.log
 public/
 src/source/js/trans/
+app/

@@ -1,1 +1,0 @@
-System.register("modules/syntaxHighlight",["lib/prism"],function(a){var b,c;return{setters:[function(a){b=a["default"]}],execute:function(){"use strict";c=function(){},a("default",c)}}});

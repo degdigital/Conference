@@ -1,5 +1,0 @@
-@define-mixin list-inline {
-	li {
-		display: inline-block;
-	}
-}
