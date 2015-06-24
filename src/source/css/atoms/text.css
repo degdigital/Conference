@@ -1,0 +1,54 @@
+@import url(//fonts.googleapis.com/css?family=Asap:400,700,400italic,700italic);
+
+html {
+	font-size: 100%;
+}
+
+body {
+	font-size: 1rem;
+	font-family: var(--font-family-primary);
+	color: var(--color-text);
+}
+
+a {
+	color: var(--color-link);
+	text-decoration: none;
+	transition: color .5s, background-color .5s, border-color .5s;
+	&:visted { color: var(--color-link); }
+	&:hover, &:active {
+		color: var(--color-link-hover);
+	}
+}
+
+p {
+	line-height: 1.4;
+	margin-bottom: 1rem;
+	&:last-child { margin-bottom: 0; }
+}
+
+li {
+	margin-bottom: .5rem;
+	&:last-child { margin-bottom: 0; }
+}
+
+ol {
+	padding-left: 1.5rem;
+	li { margin-bottom: 1.25rem; }
+}
+
+.is-vishidden {
+	  position: absolute !important;
+	  overflow: hidden;
+	  width: 1px;
+	  height: 1px;
+	  padding: 0;
+	  border: 0;
+	  clip: rect(1px, 1px, 1px, 1px);
+}
+
+@media (--small) {
+	p { font-size: 1.25rem; }
+}
+@media (--medium) {
+	p { margin-bottom: 2rem; }
+}

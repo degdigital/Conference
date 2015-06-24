@@ -1,0 +1,23 @@
+<pre class="code-block">
+<code class="language-css" data-module="prism">
+:root {
+    --row: 1rem;
+    --mainColor: #ffbbaaff;
+}
+
+@custom-media --mobile (width &lt;= 640px);
+
+@custom-selector --heading h1, h2, h3, h4, h5, h6;
+
+.post-article --heading {
+    margin-top: calc(10 * var(--row));
+    color: color(var(--mainColor) blackness(+20%));
+    font-variant-caps: small-caps;
+}
+@media (--mobile) {
+    .post-article --heading {
+        margin-top: 0;
+    }
+}
+</code>
+</pre>

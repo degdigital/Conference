@@ -1,0 +1,60 @@
+{
+	"title" : "DEG",
+	"bodyClass": "project-details-page",
+	"emergency" : false,
+	"conference-name" : "KCDC",
+	"talk-name" : "MVC and Webforms: Armed and Ready",
+	"talk-url" : "#",
+	"talk-location" : "Slides",
+	"talk-description" : "A new project has come your way and you are faced with a decision: ASP.NET MVC or Web Forms? In this session, You will learn the information needed to properly make a choice. We will discuss the benefits and drawbacks of each approach, what to consider, and the undisputable facts that go along with each. Whether you are an architect or a developer, you will leave armed and ready to make an informed decision.",
+	"details-speaker" : [
+		{
+			"img" : {
+				"avatar": {
+					"src": "../../images/team/jrondeau.jpg",
+					"alt": "Jeffrey Rondeau"
+				}
+			},
+			"speaker-name" : "Jeffrey Rondeau",
+			"speaker-bio" : "Jeffrey Rondeau is a KU Alum with a degree in Computer Science currently working as a .NET Engineer for DEG.  He has a passion for writing clean and efficient code.  Outside of work you can find him playing basketball and trying to help others get involved with the developer community.",
+			"speaker-social" : [
+				{
+					"network": "twitter",
+					"url": "https://twitter.com/JRondeau16"
+				},
+				{
+					"network": "github",
+					"url": "https://github.com/JRondeau16"
+				}
+			]
+		}
+	],
+	"talk-resources" : [
+		{
+			"resource-list-name" : "More Resources 1",
+			"resources" : [
+				{
+					"resource-name": "Resource 1",
+					"url": "#"
+				}
+			]
+		},
+		{
+			"resource-list-name" : "More Resources 2",
+			"resources" : [
+				{
+					"resource-name": "Resource 1",
+					"url": "#"
+				}
+			]
+		}
+	],
+	"blog-post" : [
+		{
+			"author": "Jeffrey",
+			"topic": "MVC and Webforms",
+			"where": "on the DEG blog",
+			"url": "#"
+		}
+	]
+}

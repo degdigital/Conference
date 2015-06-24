@@ -1,0 +1,68 @@
+.projectDetails-team {
+	ul {
+		list-style: none;
+		display: flex;
+		justify-content: space-between;
+  		flex-wrap: wrap;
+	}
+	li:nth-last-child(2) { margin-bottom: 0; }
+}
+
+.projectDetails-team-member {
+	width: 50%;
+	margin-bottom: 1.25rem;
+	padding: .5rem;
+	text-align: center;
+}
+
+.speaker-info {
+	margin-bottom: 1rem;
+}
+
+.team-member-img {
+	width: 75px;
+	max-width: 100%;
+	display: block;
+	float: left;
+	margin: 0 1rem 0 0;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	border-radius: 50%;
+	transition: color,0.5s;
+}
+
+.team-member-name {
+	font-size: .9rem;
+	margin: .5rem 0 .25rem;
+	transition: color,0.5s;
+}
+
+.speaker-name {
+	margin-bottom: .5rem;
+}
+
+.speaker-social {
+	font-size: 1.5rem;
+}
+
+.speaker-bio {
+	clear: both;
+}
+
+.projectDetails-team-member:hover {
+	.team-member-img {
+		-webkit-filter: grayscale(0%);
+		filter: grayscale(0%);
+	}
+	.team-member-name {
+		color: var(--color-blue);
+	}
+}
+
+
+@media (--small) {
+	.projectDetails-team-member { width: 25%; }
+}
+@media (--medium) {
+	.projectDetails-team-member { width: auto; }
+}
