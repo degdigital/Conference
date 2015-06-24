@@ -1,0 +1,21 @@
+.content {
+	max-width: 75em;
+	margin: 0 auto;
+	padding: var(--spacing-vertical) var(--spacing-horizontal);
+}
+
+
+@media only screen and (--small) {
+	.content {
+		padding: var(--spacing-vertical) 1.5rem;
+	}
+}
+
+@media only screen and (--medium) {
+	.main .content {
+		 {
+			padding-top: 4.5rem;
+			padding-bottom: 6rem;
+		}
+	}
+}
