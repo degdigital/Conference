@@ -3,10 +3,10 @@
 	"bodyClass": "project-details-page",
 	"emergency" : false,
 	"conference-name" : "Coffee & Design",
-	"talk-name" : "Embracing Atomic Design",
-	"talk-url" : "#",
+	"talk-name" : "Sweating The Small Stuff",
+	"talk-url" : "https://www.slideshare.net/secret/D3D8mAjpQ75XHP",
 	"talk-location" : "Slideshare",
-	"talk-description" : "",
+	"talk-description" : "Websites are no longer made up of static pages. Between the varying device sizes we have to tackle and design systems that are becoming ever more complex, they simply don’t hold up to the challenges we’re faced with on the web today. Brian Graves and Ryan Heap take a look at using a combination of Style Tiles and Atomic Design to create design systems that can take content all of the places it needs to go and keep it looking great, extendable and user friendly along the way.",
 	"details-speaker" : [
 		{
 			"img" : {
@@ -16,7 +16,7 @@
 				}
 			},
 			"speaker-name" : "Brian Graves",
-			"speaker-bio" : "A UI designer and developer who's passionate about design and the process behind it, Brian is a strong proponent of iterative work, collaborative efforts, and user first design. He is currently the UI team lead at DEG where he does cross-channel design and development work for a range of major brands.",
+			"speaker-bio" : "A UI designer and developer who’s passionate about design and the process behind it, Brian is a strong proponent of iterative work, collaborative efforts, and user first design. He is currently the UI team lead at DEG where he does cross-channel work for a range of major brands. When not immersed in design, Brian can be found around Kansas City trying out new dinner and drink spots or hanging out at home with his girlfriend and two miniature Australian Shepherds.",
 			"speaker-social" : [
 				{
 					"network": "twitter",
@@ -36,7 +36,7 @@
 				}
 			},
 			"speaker-name" : "Ryan Heap",
-			"speaker-bio" : "Ryan Bio",
+			"speaker-bio" : "Ryan is a UI developer born and raised in the center of the universe: Kansas City, MO. He enjoys the ever-evolving world of front-end web development and figuring out ways to build beautiful, progressive, and speedy websites. Ryan currently makes his living as a UI team lead at DEG and fills his leisure hours chasing around his two wild daughters.",
 			"speaker-social" : [
 				{
 					"network": "twitter",
@@ -51,30 +51,47 @@
 	],
 	"talk-resources" : [
 		{
-			"resource-list-name" : "More Resources 1",
+			"resource-list-name" : "Design System Resources",
 			"resources" : [
 				{
-					"resource-name": "Resource 1",
-					"url": "#"
+					"resource-name": "24 Ways: Design Systems",
+					"url": "https://24ways.org/2012/design-systems/"
+				},
+				{
+					"resource-name": "Samantha Warren: Faster Design Decisions w/ Style Tiles",
+					"url": "https://vimeo.com/115992327"
+				},
+				{
+					"resource-name": "Pattern Language: Responsive Style Guides",
+					"url": "https://youtu.be/eInWuVQaHEU"
+				},
+				{
+					"resource-name": "Styleguides.io",
+					"url": "http://styleguides.io/"
 				}
 			]
 		},
 		{
-			"resource-list-name" : "More Resources 2",
+			"resource-list-name" : "Atomic Design Resources",
 			"resources" : [
 				{
-					"resource-name": "Resource 1",
-					"url": "#"
+					"resource-name": "Brad Frost: Atomic Design",
+					"url": "https://vimeo.com/search?q=brad+frost+atomic+design"
+				},
+				{
+					"resource-name": "Style Guide First?",
+					"url": "http://bradfrost.com/blog/post/style-guide-first/"
+				},
+				{
+					"resource-name": "Atomic Design: The Book",
+					"url": "http://bradfrost.com/blog/post/atomic-design-book/"
+				},
+				{
+					"resource-name": "Patternlab.io",
+					"url": "http://patternlab.io"
 				}
 			]
 		}
 	],
-	"blog-post" : [
-		{
-			"author": "Brian",
-			"topic": "Atomic Design",
-			"where": "on the DEG blog",
-			"url": "#"
-		}
-	]
+	"blog-post" : false
 }
