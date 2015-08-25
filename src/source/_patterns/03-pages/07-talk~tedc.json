@@ -1,0 +1,83 @@
+{
+	"title" : "DEG",
+	"bodyClass": "project-details-page",
+	"emergency" : false,
+	"conference-name" : "The Email Design Conference",
+	"talk-name" : "Post is the New Pre: Using Postprocessors to Revolutionize Your Workflow",
+	"talk-url" : "https://cdn.rawgit.com/aladage/post-is-the-new-pre/master/index.html",
+	"talk-location" : "Github",
+	"talk-description" : "For years, front-end developers have turned to preprocessors like SASS and CoffeeScript to fill in the gaps in native languages like CSS and JavaScript. Although these tools have transformed and enhanced the way we write code, they've also forced us to work in nonstandard syntaxes, bouncing from one compiler to the next as we try to find the perfect build process. But what if there's a better way? Learn how postprocessors and transpilers can revolutionize your code and workflow. If the idea of writing CSS4 and ES7 code today without compromising browser support sounds like crazy talk, you're in for a wonderful surprise.",
+	"details-speaker" : [
+		{
+			"img" : {
+				"avatar": {
+					"src": "../../images/team/aladage.jpg",
+					"alt": "Aaron Ladage"
+				}
+			},
+			"speaker-name" : "Aaron Ladage",
+			"speaker-bio" : "Aaron Ladage is a UI engineer at DEG in Overland Park, Kansas. He’s currently obsessed with creating faster, leaner responsive sites, and architecting front-end workflow tools and processes that help other developers do the same.",
+			"speaker-social" : [
+				{
+					"network": "twitter",
+					"url": "https://twitter.com/aladage"
+				},
+				{
+					"network": "github",
+					"url": "https://github.com/aladage"
+				}
+			]
+		}
+	],
+	"talk-resources" : [
+		{
+			"resource-list-name" : "PostCSS Resources",
+			"resources" : [
+				{
+					"resource-name": "Deconfusing Pre- and Post-processing",
+					"url": "https://medium.com/@ddprrt/deconfusing-pre-and-post-processing-d68e3bd078a3"
+				},
+				{
+					"resource-name": "PostCSS: the Future after Sass and Less",
+					"url": "http://ai.github.io/about-postcss/en/"
+				},
+				{
+					"resource-name": "cssnext",
+					"url": "http://cssnext.io/"
+				},
+				{
+					"resource-name": "Breaking up with Sass: it's not you, it's me",
+					"url": "http://benfrain.com/breaking-up-with-sass-postcss/"
+				},
+				{
+					"resource-name": "How to Build Your Own CSS Preprocessor With PostCSS",
+					"url": "http://www.sitepoint.com/build-css-preprocessor-postcss/"
+				},
+				{
+					"resource-name": "On Writing Real CSS (Again)",
+					"url": "https://blog.colepeters.com/on-writing-real-css-again/"
+				},
+				{
+					"resource-name": "A look into writing future CSS with PostCSS and cssnext",
+					"url": "http://bigbitecreative.com/a-look-into-writing-future-css-with-postcss-cssnext/"
+				},
+				{
+					"resource-name": "Modifying CSS Colors with the color() function",
+					"url": "http://topaxi.codes/modifying-css-colors-with-the-color-function/"
+				},
+				{
+					"resource-name": "CSS4 Variables and Sass",
+					"url": "http://codepen.io/jakealbaugh/blog/css4-variables-and-sass"
+				}
+			]
+		}
+	],
+	"blog-post" : [
+		{
+			"author": "Aaron",
+			"topic": "Postprocessors",
+			"where": "on the DEG blog",
+			"url": "http://www.degdigital.com/blog/returning-to-real-front-end-code"
+		}
+	]
+}
