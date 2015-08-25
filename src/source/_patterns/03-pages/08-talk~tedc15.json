@@ -4,7 +4,7 @@
 	"emergency" : false,
 	"conference-name" : "The Email Design Conference",
 	"talk-name" : "Using Tomorrow's CSS Today",
-	"talk-url" : "#",
+	"talk-url" : "https://www.slideshare.net/secret/jhEZBt9qJYtPzH",
 	"talk-location" : "Slideshare",
 	"talk-description" : "CSS4 may only be in the working draft stage, but that doesn't mean we can't begin to use some of it's capabilities in our current email designs. Variables, color manipulation, custom media queries, and custom selectors are just a few of the powerful new features that can be utilized to take email design to the next level.",
 	"details-speaker" : [
