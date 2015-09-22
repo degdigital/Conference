@@ -1,0 +1,60 @@
+{
+	"title" : "DEG",
+	"bodyClass": "project-details-page",
+	"emergency" : false,
+	"conference-name" : "NCDevCon",
+	"talk-name" : "Performance Budgets In The Real World",
+	"talk-url" : "https://speakerdeck.com/briangraves/performance-budgets-in-the-real-world",
+	"talk-location" : "Speaker Deck",
+	"talk-description" : "The speed of the websites we design has a huge impact on not only user experience, but on conversions and revenue. Having performance discussions throughout the project lifecycle is one of the best ways to ensure a fast website. And one of the best tools to aid in these discussions is a performance budget. Setting one might seem straight forward, but how do they hold up on real world projects that run up against various stakeholders, teams of developers, CMS’s that allow components to be dropped anywhere, and beta and production environments with varying speeds? In this talk, we’ll discuss how to set performance budgets that deliver great experiences in real world environments.",
+	"details-speaker" : [
+		{
+			"img" : {
+				"avatar": {
+					"src": "../../images/team/bgraves.jpg",
+					"alt": "Brian Graves"
+				}
+			},
+			"speaker-name" : "Brian Graves",
+			"speaker-bio" : "A UI designer and developer who's passionate about design and the process behind it, Brian is a strong proponent of iterative work, collaborative efforts, and user first design. He is currently the UI team lead at DEG where he does cross-channel design and development work for a range of major brands.",
+			"speaker-social" : [
+				{
+					"network": "twitter",
+					"url": "https://twitter.com/briangraves"
+				},
+				{
+					"network": "github",
+					"url": "https://github.com/briangraves"
+				}
+			]
+		}
+	],
+	"talk-resources" : [
+		{
+			"resource-list-name" : "Performance Stats",
+			"resources" : [
+				{
+					"resource-name": "",
+					"url": ""
+				}
+			]
+		},
+		{
+			"resource-list-name" : "Performance Budget Resources",
+			"resources" : [
+				{
+					"resource-name": "",
+					"url": ""
+				}
+			]
+		}
+	],
+	"blog-post" : [
+		{
+			"author": "",
+			"topic": "",
+			"where": "",
+			"url": ""
+		}
+	]
+}
