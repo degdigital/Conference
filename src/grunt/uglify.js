@@ -12,7 +12,7 @@ module.exports = {
     },
     options: {
         beautify: false,
-        compress: true,
+        compress: {},
         mangle: true
     }
 };

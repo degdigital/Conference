@@ -31,11 +31,31 @@
 	],
 	"talk-resources" : [
 		{
-			"resource-list-name" : "Performance Stats",
+			"resource-list-name" : "Performance Resources",
 			"resources" : [
 				{
-					"resource-name": "",
-					"url": ""
+					"resource-name": "Perf Rocks",
+					"url": "http://perf.rocks/"
+				},
+				{
+					"resource-name": "Why Performance Matters: The Perception Of Time",
+					"url": "http://www.smashingmagazine.com/2015/09/why-performance-matters-the-perception-of-time/"
+				},
+				{
+					"resource-name": "Reaching Everyone, Fast",
+					"url": "https://speakerdeck.com/tkadlec/reaching-everyone-fast-at-from-the-front-2015"
+				},
+				{
+					"resource-name": "Designing For Performance",
+					"url": "https://www.youtube.com/watch?v=EPDZJbTLOQI"
+				},
+				{
+					"resource-name": "JS Performance Deep Dive",
+					"url": "https://www.youtube.com/watch?v=1S_sKdY9fQY"
+				},
+				{
+					"resource-name": "Responsible Responsive Design",
+					"url": "http://abookapart.com/products/responsible-responsive-design"
 				}
 			]
 		},
@@ -43,18 +63,22 @@
 			"resource-list-name" : "Performance Budget Resources",
 			"resources" : [
 				{
-					"resource-name": "",
-					"url": ""
+					"resource-name": "Setting a Performance Budget",
+					"url": "http://timkadlec.com/2013/01/setting-a-performance-budget/"
+				},
+				{
+					"resource-name": "How To Make A Performance Budget",
+					"url": "http://danielmall.com/articles/how-to-make-a-performance-budget/"
+				},
+				{
+					"resource-name": "Performance Budget Metrics",
+					"url": "http://timkadlec.com/2014/11/performance-budget-metrics/"
+				},
+				{
+					"resource-name": "Webpagetest Charts Api",
+					"url": "https://github.com/trulia/webpagetest-charts-api"
 				}
 			]
-		}
-	],
-	"blog-post" : [
-		{
-			"author": "",
-			"topic": "",
-			"where": "",
-			"url": ""
 		}
 	]
 }
