@@ -5,7 +5,11 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width" />
 
+<<<<<<< HEAD
+		<link rel="stylesheet" href="css/style.css?1442940139" media="all" />
+=======
 		<link rel="stylesheet" href="css/style.css?1442894685" media="all" />
+>>>>>>> 7b56e895618816573c935e95556d783509de0f00
 
 		
 
