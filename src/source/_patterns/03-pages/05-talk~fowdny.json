@@ -1,0 +1,124 @@
+{
+	"title" : "DEG",
+	"bodyClass": "project-details-page",
+	"emergency" : false,
+	"conference-name" : "Future of Web Design",
+	"talk-name" : "Post is the New Pre: Using Postprocessors to Revolutionize Your Workflow",
+	"talk-url" : "https://cdn.rawgit.com/aladage/post-is-the-new-pre/fowd2015/",
+	"talk-location" : "Github",
+	"talk-description" : "For years, front-end developers have turned to preprocessors like SASS and CoffeeScript to fill in the gaps in native languages like CSS and JavaScript. Although these tools have transformed and enhanced the way we write code, they've also forced us to work in nonstandard syntaxes, bouncing from one compiler to the next as we try to find the perfect build process. But what if there's a better way? Learn how postprocessors and transpilers can revolutionize your code and workflow. If the idea of writing CSS4 and ES7 code today without compromising browser support sounds like crazy talk, you're in for a wonderful surprise.",
+	"details-speaker" : [
+		{
+			"img" : {
+				"avatar": {
+					"src": "../../images/team/aladage.jpg",
+					"alt": "Aaron Ladage"
+				}
+			},
+			"speaker-name" : "Aaron Ladage",
+			"speaker-bio" : "Aaron Ladage is a UI engineer at DEG in Overland Park, Kansas. He’s currently obsessed with creating faster, leaner responsive sites, and architecting front-end workflow tools and processes that help other developers do the same.",
+			"speaker-social" : [
+				{
+					"network": "twitter",
+					"url": "https://twitter.com/aladage"
+				},
+				{
+					"network": "github",
+					"url": "https://github.com/aladage"
+				}
+			]
+		}
+	],
+	"talk-resources" : [
+		{
+			"resource-list-name" : "PostCSS Resources",
+			"resources" : [
+				{
+					"resource-name": "PostCSS: the Future after Sass and Less",
+					"url": "http://ai.github.io/about-postcss/en/"
+				},
+				{
+					"resource-name": "cssnext",
+					"url": "http://cssnext.io/"
+				},
+				{
+					"resource-name": "Breaking up with Sass: it's not you, it's me",
+					"url": "http://benfrain.com/breaking-up-with-sass-postcss/"
+				},
+				{
+					"resource-name": "How to Build Your Own CSS Preprocessor With PostCSS",
+					"url": "http://www.sitepoint.com/build-css-preprocessor-postcss/"
+				},
+				{
+					"resource-name": "On Writing Real CSS (Again)",
+					"url": "https://blog.colepeters.com/on-writing-real-css-again/"
+				},
+				{
+					"resource-name": "A look into writing future CSS with PostCSS and cssnext",
+					"url": "http://bigbitecreative.com/a-look-into-writing-future-css-with-postcss-cssnext/"
+				},
+				{
+					"resource-name": "cssnext",
+					"url": "http://cssnext.io/"
+				},
+				{
+					"resource-name": "Modifying CSS Colors with the color() function",
+					"url": "http://topaxi.codes/modifying-css-colors-with-the-color-function/"
+				},
+				{
+					"resource-name": "CSS4 Variables and Sass",
+					"url": "http://codepen.io/jakealbaugh/blog/css4-variables-and-sass"
+				}
+			]
+		},
+		{
+			"resource-list-name" : "Babel/ES6 Resources",
+			"resources" : [
+				{
+					"resource-name": "Babel Website",
+					"url": "https://babeljs.io/"
+				},
+				{
+					"resource-name": "Mozilla: ES6 In Depth",
+					"url": "https://hacks.mozilla.org/category/es6-in-depth/"
+				},
+				{
+					"resource-name": "You Might Not Need jQuery",
+					"url": "http://youmightnotneedjquery.com/"
+				},
+				{
+					"resource-name": "Babel: Learn ES2015",
+					"url": "https://hacks.mozilla.org/category/es6-in-depth/"
+				},
+				{
+					"resource-name": "Replace CoffeeScript with ES6",
+					"url": "https://robots.thoughtbot.com/replace-coffeescript-with-es6"
+				},
+				{
+					"resource-name": "Six Steps for Approaching the Next Javascript",
+					"url": "http://developer.telerik.com/featured/six-steps-for-approaching-the-next-javascript"
+				},
+				{
+					"resource-name": "Introduction to ECMAScript 6",
+					"url": "http://coenraets.org/present/es6/"
+				},
+				{
+					"resource-name": "Practical tips and tricks for using ES6 in today’s web applications",
+					"url": "http://blog.blackballsoftware.com/2015/04/07/practical-tips-and-tricks-for-using-es6-in-todays-web-applications/"
+				},
+				{
+					"resource-name": "Are you prepared for life after jQuery?",
+					"url": "http://www.creativebloq.com/jquery/are-you-prepared-life-after-jquery-71412497"
+				}
+			]
+		}
+	],
+	"blog-post" : [
+		{
+			"author": "Aaron Ladage",
+			"topic": "Postprocessors",
+			"where": "on the Future Insights blog",
+			"url": "http://www.futureinsights.com/home/postprocessors-and-the-next-era-of-front-end-development.html"
+		}
+	]
+}
