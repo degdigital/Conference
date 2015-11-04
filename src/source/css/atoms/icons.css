@@ -1,4 +1,43 @@
 @font-face {
+	font-family: 'degweb-icons';
+	src:url('../fonts/degweb-icons.eot?-3ce42x');
+	src:url('../fonts/degweb-icons.eot?#iefix-3ce42x') format('embedded-opentype'),
+		url('../fonts/degweb-icons.ttf?-3ce42x') format('truetype'),
+		url('../fonts/degweb-icons.woff?-3ce42x') format('woff'),
+		url('../fonts/degweb-icons.svg?-3ce42x#degweb-icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="ico-"], [class*=" ico-"] {
+	font-family: 'degweb-icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.ico--arrow:before {
+	content: "\e604";
+}
+.ico--linkedin:before {
+	content: "\e602";
+}
+.ico--facebook:before {
+	content: "\e600";
+}
+.ico--twitter:before {
+	content: "\e601";
+}
+
+
+@font-face {
 	font-family: 'sparkicons';
 	src:url('../fonts/sparkicons.eot');
 	src:url('../fonts/sparkicons.eot?#iefix') format('embedded-opentype'),

@@ -1,0 +1,13 @@
+<nav class="footer-nav">
+	<ul class="footer-nav__list">
+	<li class="footer-nav__item">
+		<a class="footer-nav__link footer-nav__link--logo" href="#">
+			<img src="../../images/deg_logo_footer.png" alt="DEG" />
+		</a>
+	{{# footerNavItems }}
+		<li class="footer-nav__item">
+			<a class="footer-nav__link" href="#">{{ linkTitle }}</a>
+		</li>
+	{{/ footerNavItems }}
+	</ul>
+</nav>

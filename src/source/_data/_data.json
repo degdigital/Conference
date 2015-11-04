@@ -145,5 +145,36 @@
 	"project-tags" : [
 		"Tag1",
 		"Tag2"
+	],
+	"footerNavItems": [
+		{
+			"linkTitle": "News"
+		},
+		{
+			"linkTitle": "Careers"
+		},
+		{
+			"linkTitle": "Contact"
+		},
+		{
+			"linkTitle": "Privacy Policy"
+		}
+	],
+	"socialMediaChannels": [
+		{
+			"channelName": "Twitter",
+			"channelCssClass": "twitter",
+			"channelLink": "#"
+		},
+		{
+			"channelName": "Facebook",
+			"channelCssClass": "facebook",
+			"channelLink": "#"
+		},
+		{
+			"channelName": "LinkedIn",
+			"channelCssClass": "linkedin",
+			"channelLink": "#"
+		}
 	]
 }

@@ -1,29 +1,45 @@
 .btn {
-	font-size: 1rem;
-	display: inline-block;
-	padding: .5rem 1rem;
-
+	border: 3px solid var(--color-blue);
+	color: var(--color-blue);
+	background-color: transparent;
+	padding: 1em 2em;
+	font-size: .875em;
 	text-align: center;
-	text-decoration: none;
-	color: var(--color-white);
+	text-transform: uppercase;
+	display: inline-block;
+	cursor: pointer;
+	transition: background-color .25s ease-in, color .25s, ease-in, transform .25s;
 
-	border-radius: .2rem;
-	background: var(--color-green);
-	transition: color .5s, background-color .5s, border-color .5s;
-
-	&:visted { color: var(--color-white); }
-}
-
-.btn:hover {
-	background: var(--color-green-dark);
-	color: var(--color-white);
-}
-
-@media (--small) {
-
-	.btn {
-		font-size: 1.25rem;
+	&:hover, &:active {
+		color: var(--color-white);
 	}
 
+	&:hover {
+		text-decoration: none;
+		background-color: var(--color-blue-light);
+	}
+
+	&:active {
+		background-color: var(--color-blue);
+		transform: scale(1.025);
+	}
 }
 
+.btn--alt {
+	background-color: var(--color-blue);
+	color: var(--color-white);
+
+	&:hover {
+		background-color: var(--color-blue-light);
+	}
+
+	&:active {
+		background-color: var(--color-blue-lighter);
+	}
+}
+
+.btn--solid {
+	background-color: var(--color-blue);
+	color: var(--color-white);
+	border: 0;
+}
