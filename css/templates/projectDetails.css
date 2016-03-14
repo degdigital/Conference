@@ -5,7 +5,7 @@
 .projectDetails-aside {
 	padding: 1.5rem;
 	border: 1px solid var(--color-grey-light);
-	border-radius: .25rem;
+	border-radius: 0;
 	color: var(--color-grey);
 }
 
@@ -22,8 +22,8 @@
 @media (--small) {
 	.projectDetails-article {
 		ul, ol, p {
-			font-size: 1.25rem;
-			line-height: 1.5;
+			font-size: 1.125em;
+			line-height: 2;
 		}
 	}
 	.projectDetails-aside-section {

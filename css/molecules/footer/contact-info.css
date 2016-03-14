@@ -1,0 +1,21 @@
+.contact-info__group {
+	color: var(--color-white);
+	font-style: .875em;
+}
+
+.contact-info__item {
+	display: block;
+	margin-bottom: .75em;
+}
+
+.contact-info__link {
+	color: var(--color-white);
+
+	&:hover {
+		color: var(--color-blue-lightest);
+	}	
+
+	&:active {
+		color: var(--color-blue-lighter);
+	}	
+}

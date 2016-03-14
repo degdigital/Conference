@@ -1,30 +1,15 @@
 .pageHeader {
 	min-height: 16rem;
-	padding: 3rem 0 0;
-	border-bottom: 1rem solid var(--color-blue);
-}
-
-.pageHeader-home {
-	display: flex;
-  	align-items: center;
-  	text-align: center;
-  	background:
-		linear-gradient(to bottom,rgba(0,0,0, 0.4),rgba(0,0,0, 0.8)),
-		url("../images/dinkeltime.jpg") right center no-repeat;
-	background-size: auto 100%;
-  	.content { margin: 0 auto; }
-  	.pageHeader-heading { margin-bottom: 1rem; }
-  	.pageHeader-desc { margin-bottom: 0; }
+	padding: 4rem 0 0;
 }
 
 .pageHeader-detail {
 	background:
-		linear-gradient(to bottom, rgba(0,0,0, 0.4), rgba(0,0,0, 0.8)),
-		url("../images/default-project-background.svg"),
+		url("../images/ui-team.jpg"),
 	    #DCDBDB;
-	background-position: 0 0, right 1rem bottom, 0 0;
+	background-position: center center;
 	background-repeat: repeat, no-repeat, repeat;
-	background-size: 100%, auto 75%, 100%;
+	background-size: cover;
 }
 
 .pageHeader-heading {
@@ -41,52 +26,12 @@
 	color: var(--color-white);
 }
 
-@media (--small) {
-
-	.pageHeader-detail { background-position: 0 0, right 1.5rem bottom, 0 0; }
-
-}
-
 @media (--medium) {
 
-	.pageHeader { padding: 5rem 0 2rem; }
-	.pageHeader-home { padding: 6.5rem 0 3.5rem; }
+	.pageHeader { padding: 5.5rem 0 2rem; }
 	.pageHeader-heading { font-size: 4rem; }
-	.pageHeader-desc { font-size: 1.25rem; }
-	.pageHeader-detail {
-		position: relative;
-		background: #DCDBDB;
-		&:before {
-			content: '';
-			background: linear-gradient(to bottom, rgba(0,0,0, 0.4), rgba(0,0,0, 0.8));
-			position: absolute;
-			top: 0;
-			bottom: 0;
-			width: 100%;
-			z-index: 1;
-		}
-
-		.content {
-			position: relative;
-			* {
-				z-index: 1;
-				position: relative;
-			}
-			&:before {
-				content: url("../images/default-project-background.svg");
-				position: absolute;
-				bottom: -2.2rem;
-				width: 42rem;
-				right: 1.5rem;
-			}
-		}
+	.pageHeader-desc {
+		font-size: 1.25rem;
+		margin-bottom: 2.25rem;
 	}
-}
-
-@media (min-width: 93.75rem) {
-
-	.pageHeader-home {
-		background-size: 100% auto;
-	}
-
 }

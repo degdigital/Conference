@@ -1,0 +1,38 @@
+.social-media {
+	padding: 0;
+	margin: 0;
+}
+
+.social-media__item {
+	display: inline-block;
+	margin: 0 0 0 .25em;
+	list-style: none;
+}
+
+.social-media__link {
+	overflow: hidden;
+	width: 2em;
+	height: 2em;
+	display: inline-block;
+	transition: background .25s;
+	&:before {
+		border-radius: 50%;
+		background-color: var(--color-grey-light);
+		color: var(--color-grey);
+		padding: .5em;
+		display: inline-block;
+		transition: background .25s;
+	}
+
+	&:hover {
+		&:before {
+			background-color: var(--color-grey-lighter);
+		}
+	}
+
+	&:active {
+		&:before {
+			background-color: var(--color-grey-lightest);
+		}
+	}
+}

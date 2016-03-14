@@ -1,0 +1,6 @@
+.copyright {
+	text-transform: uppercase;
+	color: var(--color-grey-light);
+	font-size: .75em;
+	font-family: var(--font-family-secondary);
+}

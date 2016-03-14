@@ -2,23 +2,29 @@
 	--color-white: #fff;
 	--color-black: #000;
 
-	--color-grey: #8a8a8a;
-	--color-grey-light: #CCC;
-	--color-grey-dark: #333;
+	--color-grey: #484848;
+	--color-grey-light: #858585;
+	--color-grey-lighter: #aeaeae;
+	--color-grey-lightest: #e9eef0;
+	--color-grey-dark: #282828;
 
-	--color-blue: #0A81C4;
-	--color-blue-light: #8DC5EA;
-	--color-blue-dark: #005581;
+	--color-blue: #1782c5;
+	--color-blue-light: #249BE5;
+	--color-blue-lighter: #5BB4EC;
+	--color-blue-lightest: #91CDF2;
+	--color-blue-dark: #0F5580;
+	--color-blue-darker: #062437;
 	--color-green: #8DC63F;
 	--color-green-dark: #72a230;
 
-	--color-text: var(--color-grey-dark);
-	--color-text-heading: var(--color-grey-dark);
+	--color-text: var(--color-grey-light);
+	--color-text-heading: var(--color-grey);
 	--color-text-code: var(--color-blue-dark);
 	--color-link: var(--color-blue);
 	--color-link-hover: var(--color-blue-dark);
 
-	--font-family-primary: 'Asap', sans-serif;
+	--font-family-primary: Arimo, Helvetica, Arial, sans-serif;
+	--font-family-secondary: Ciutadella, Helvetica, Arial, sans-serif;
 
 	--spacing-vertical: 2rem;
 	--spacing-horizontal: 1rem;
