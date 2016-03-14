@@ -1,12 +1,11 @@
 .pageHeader {
 	min-height: 16rem;
-	padding: 3rem 0 0;
+	padding: 4rem 0 0;
 }
 
 .pageHeader-detail {
 	background:
-		linear-gradient(to bottom, rgba(0,85,129, 0.6), rgba(0,85,129, 0.6)),
-		url("../images/speaking.jpg"),
+		url("../images/ui-team.jpg"),
 	    #DCDBDB;
 	background-position: center center;
 	background-repeat: repeat, no-repeat, repeat;
@@ -29,7 +28,10 @@
 
 @media (--medium) {
 
-	.pageHeader { padding: 5rem 0 2rem; }
+	.pageHeader { padding: 5.5rem 0 2rem; }
 	.pageHeader-heading { font-size: 4rem; }
-	.pageHeader-desc { font-size: 1.25rem; }
+	.pageHeader-desc {
+		font-size: 1.25rem;
+		margin-bottom: 2.25rem;
+	}
 }

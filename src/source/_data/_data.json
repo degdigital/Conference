@@ -31,6 +31,7 @@
 	},
 	"project-name" : "Project Name",
 	"project-tagline" : "Project Tagline",
+	"resource-headline" : "Talk Resources",
 	"github" : "#",
 	"standalone" : "#",
 	"details-team" : [
@@ -148,33 +149,37 @@
 	],
 	"footerNavItems": [
 		{
-			"linkTitle": "News"
+			"linkTitle": "News",
+			"url": "http://www.degdigital.com/insights/?filter=news"
 		},
 		{
-			"linkTitle": "Careers"
+			"linkTitle": "Careers",
+			"url": "https://www.degdigital.com/careers/"
 		},
 		{
-			"linkTitle": "Contact"
+			"linkTitle": "Contact",
+			"url": "https://www.degdigital.com/contact/"
 		},
 		{
-			"linkTitle": "Privacy Policy"
+			"linkTitle": "Privacy Policy",
+			"url": "https://www.degdigital.com/homepage/privacy-policy/"
 		}
 	],
 	"socialMediaChannels": [
 		{
 			"channelName": "Twitter",
 			"channelCssClass": "twitter",
-			"channelLink": "#"
+			"channelLink": "https://twitter.com/degdigital"
 		},
 		{
 			"channelName": "Facebook",
 			"channelCssClass": "facebook",
-			"channelLink": "#"
+			"channelLink": "https://www.facebook.com/DEGdigital"
 		},
 		{
 			"channelName": "LinkedIn",
 			"channelCssClass": "linkedin",
-			"channelLink": "#"
+			"channelLink": "https://www.linkedin.com/company/degdigital"
 		}
 	]
 }
